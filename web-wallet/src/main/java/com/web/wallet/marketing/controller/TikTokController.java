@@ -40,7 +40,7 @@ public class TikTokController extends RestBaseController {
         return this.process(BizTypeEnum.TIKTOK_VIDEO_DETAIL, tikTokVideoDetailRequest, new CommonResult<>(), request, request);
     }
 
-    @GetMapping(value = "downloadVideo")
+    @GetMapping(value = "downloadVideo1")
     public void downloadVideo(HttpServletRequest request, @PathVariable String downloadUrl) {
 
         this.process(BizTypeEnum.TIKTOK_VIDEO_DOWNLOAD, null, new CommonResult<>(), request, downloadUrl);
