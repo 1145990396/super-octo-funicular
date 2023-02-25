@@ -1,0 +1,94 @@
+2023-02-25 09:57:18.649  INFO 624 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 624 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 09:57:18.650  INFO 624 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 09:57:18.660  WARN 624 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 09:57:18.983  INFO 624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 09:57:18.989  INFO 624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 09:57:18.989  INFO 624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 09:57:19.003  INFO 624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 09:57:19.076  INFO 624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 09:57:19.246  INFO 624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 09:57:19.246  INFO 624 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.722 seconds (JVM running for 1.047)
+2023-02-25 10:00:59.335  INFO 8220 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 8220 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:00:59.335  INFO 8220 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:00:59.348  WARN 8220 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:00:59.704  INFO 8220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:00:59.704  INFO 8220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:00:59.704  INFO 8220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:00:59.737  INFO 8220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:00:59.812  INFO 8220 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:00:59.984  INFO 8220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:00:59.984  INFO 8220 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.799 seconds (JVM running for 1.175)
+2023-02-25 10:01:01.804  INFO 8220 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:01:08.616  INFO 8220 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:01:20.973  INFO 1248 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 1248 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:01:20.973  INFO 1248 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:01:21.001  WARN 1248 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:01:21.353  INFO 1248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:01:21.353  INFO 1248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:01:21.353  INFO 1248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:01:21.388  INFO 1248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:01:21.451  INFO 1248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:01:21.624  INFO 1248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:01:21.626  INFO 1248 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.784 seconds (JVM running for 1.137)
+2023-02-25 10:01:23.667  INFO 1248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:01:25.452  INFO 1248 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:02:52.414  INFO 9304 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 9304 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:02:52.415  INFO 9304 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:02:52.434  WARN 9304 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:02:53.130  INFO 9304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:02:53.131  INFO 9304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:02:53.131  INFO 9304 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:02:53.164  INFO 9304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:02:53.235  INFO 9304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:02:53.409  INFO 9304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:02:53.409  INFO 9304 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 1.143 seconds (JVM running for 1.562)
+2023-02-25 10:02:55.586  INFO 9304 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:02:57.983  INFO 9304 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:11:25.850  INFO 7628 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 7628 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:11:25.852  INFO 7628 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:11:25.864  WARN 7628 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:11:26.291  INFO 7628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:11:26.291  INFO 7628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:11:26.291  INFO 7628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:11:26.323  INFO 7628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:11:26.477  INFO 7628 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:11:26.669  INFO 7628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:11:26.669  INFO 7628 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.987 seconds (JVM running for 1.411)
+2023-02-25 10:11:28.377  INFO 7628 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:11:31.788  INFO 7628 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:11:42.752  INFO 11156 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 11156 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:11:42.752  INFO 11156 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:11:42.780  WARN 11156 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:11:43.180  INFO 11156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:11:43.180  INFO 11156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:11:43.180  INFO 11156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:11:43.223  INFO 11156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:11:43.363  INFO 11156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:11:43.553  INFO 11156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:11:43.556  INFO 11156 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.957 seconds (JVM running for 1.397)
+2023-02-25 10:11:44.931  INFO 11156 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:12:07.647  INFO 11156 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:13:12.762  INFO 10768 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 10768 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:13:12.762  INFO 10768 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:13:12.797  WARN 10768 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:13:13.204  INFO 10768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:13:13.204  INFO 10768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:13:13.204  INFO 10768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:13:13.237  INFO 10768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:13:13.397  INFO 10768 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:13:13.579  INFO 10768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:13:13.579  INFO 10768 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.964 seconds (JVM running for 1.354)
+2023-02-25 10:13:15.670  INFO 10768 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:13:17.556  INFO 10768 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:27:15.168  INFO 12596 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 12596 (D:\developmentTools\IDEA\projects\grabber\start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 10:27:15.170  INFO 12596 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 10:27:15.196  WARN 12596 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 10:27:15.597  INFO 12596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 10:27:15.601  INFO 12596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 10:27:15.601  INFO 12596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 10:27:15.636  INFO 12596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 10:27:15.791  INFO 12596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 10:27:15.973  INFO 12596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 10:27:15.975  INFO 12596 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.967 seconds (JVM running for 1.428)
+2023-02-25 10:27:17.993  INFO 12596 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 10:27:24.115  INFO 12596 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
