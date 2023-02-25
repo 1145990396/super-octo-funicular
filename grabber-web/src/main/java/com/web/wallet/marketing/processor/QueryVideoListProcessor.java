@@ -35,9 +35,8 @@ public class QueryVideoListProcessor extends BaseProcessor implements WalletBizP
         String response  = tikTokApiClient.queryVideoList(request.getTopic(), request.getRegion(), request.getGender(), request.getAge(), request.getPageSize(), request.getPageNum());
         // 解析JSON字符串，将结果转换成VideoListResponse对象
         ObjectMapper objectMapper = new ObjectMapper();
-        JsonNode rootNode = null;
         try {
-            rootNode = objectMapper.readTree(response);
+            JsonNode rootNode = objectMapper.readTree(response);
             int totalCount = rootNode.path("total_count").asInt();
             int pageCount = rootNode.path("page_count").asInt();
             List<TikTokVideoListVO> videoList = new ArrayList<>();

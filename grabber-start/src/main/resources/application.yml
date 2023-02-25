@@ -2,5 +2,6 @@ logging:
   level:
     root: INFO # 根日志级别
     org.springframework.web: warn # Spring Web 日志级别
-  file: ./../log/grabberLog.log
+  file:
+    name: ./../log/grabberLog.log
 
