@@ -28,7 +28,7 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping(value = "api/v1/marking/tiktok")
 public class TikTokController extends RestBaseController {
 
-    @GetMapping(value = "videList")
+    @GetMapping(value = "videList1s2")
     public CommonPageResult<TikTokVideoListVO> getVideoList(HttpServletRequest request, TikTokVideoListRequest tikTokVideoListRequest) {
 
         return this.process(BizTypeEnum.TIKTOK_VIDEO_LIST, tikTokVideoListRequest, new CommonPageResult<>(), request, request);
