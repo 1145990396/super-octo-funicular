@@ -92,3 +92,15 @@
 2023-02-25 10:27:15.975  INFO 12596 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 0.967 seconds (JVM running for 1.428)
 2023-02-25 10:27:17.993  INFO 12596 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-02-25 10:27:24.115  INFO 12596 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-02-25 23:45:23.890  INFO 13232 --- [main] c.g.start.SpringBootUnionApplication     : Starting SpringBootUnionApplication on computer with PID 13232 (D:\developmentTools\IDEA\projects\grabber\grabber-start\target\classes started by Administrator in D:\developmentTools\IDEA\projects\grabber)
+2023-02-25 23:45:23.890  INFO 13232 --- [main] c.g.start.SpringBootUnionApplication     : No active profile set, falling back to default profiles: default
+2023-02-25 23:45:23.919  WARN 13232 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-02-25 23:45:24.469  INFO 13232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-25 23:45:24.474  INFO 13232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-25 23:45:24.475  INFO 13232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.34]
+2023-02-25 23:45:24.515  INFO 13232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-25 23:45:24.762  INFO 13232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-25 23:45:24.969  INFO 13232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-25 23:45:24.985  INFO 13232 --- [main] c.g.start.SpringBootUnionApplication     : Started SpringBootUnionApplication in 1.274 seconds (JVM running for 2.295)
+2023-02-25 23:45:29.021  INFO 13232 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-25 23:45:32.532  INFO 13232 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

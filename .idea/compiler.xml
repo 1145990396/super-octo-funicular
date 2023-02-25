@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="start" />
-        <module name="common-service-integrate" />
-        <module name="web-wallet" />
+        <module name="grabber-web" />
+        <module name="grabber-start" />
+        <module name="grabber-common-service-integrate" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="common-service-integrate" options="-parameters" />
-      <module name="start" options="-parameters" />
-      <module name="web-wallet" options="-parameters" />
+      <module name="grabber-common-service-integrate" options="-parameters" />
+      <module name="grabber-start" options="-parameters" />
+      <module name="grabber-web" options="-parameters" />
     </option>
   </component>
 </project>
