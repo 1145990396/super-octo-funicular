@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>shiny-common-service-facade</artifactId>
-            <version>1.0.0-20230226</version>
+            <version>1.0.0-20230227</version>
         </dependency>
 
         <dependency>

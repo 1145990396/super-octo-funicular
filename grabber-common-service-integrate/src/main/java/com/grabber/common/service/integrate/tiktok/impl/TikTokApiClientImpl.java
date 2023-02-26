@@ -18,7 +18,6 @@ import java.util.Objects;
  * @author wuxianxin
  * @version TikTokApiClientImpl.java, v 0.1 2023年02月23日 Administrator Exp $
  */
-@Component
 public class TikTokApiClientImpl implements TikTokApiClient {
 
     private OkHttpClient httpClient = new OkHttpClient();
