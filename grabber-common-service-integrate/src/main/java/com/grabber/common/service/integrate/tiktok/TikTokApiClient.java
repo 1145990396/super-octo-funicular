@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2023 All Rights Reserved.
  */
-package com.grabber.common.service.integrate;
+package com.grabber.common.service.integrate.tiktok;
 
 
 /**

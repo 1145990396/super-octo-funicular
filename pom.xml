@@ -10,9 +10,9 @@
     <version>1.0.0-20230225</version>
 
     <modules>
-        <module>web-wallet</module>
-        <module>common-service-integrate</module>
-        <module>start</module>
+        <module>grabber-common-service-integrate</module>
+        <module>grabber-start</module>
+        <module>grabber-web</module>
     </modules>
 
     <parent>
@@ -29,6 +29,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>shiny-common-service-facade</artifactId>
+            <version>1.0.0-20230226</version>
         </dependency>
 
         <dependency>

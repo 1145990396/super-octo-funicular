@@ -1,0 +1,4 @@
+com\grabber\common\service\integrate\tiktok\TikTokApiClient.class
+com\grabber\common\service\integrate\shiny\impl\UserServiceClientImpl.class
+com\grabber\common\service\integrate\shiny\UserServiceClient.class
+com\grabber\common\service\integrate\tiktok\impl\TikTokApiClientImpl.class

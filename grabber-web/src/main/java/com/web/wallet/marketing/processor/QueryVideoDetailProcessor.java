@@ -7,11 +7,16 @@ package com.web.wallet.marketing.processor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.grabber.common.service.integrate.TikTokApiClient;
+import com.grabber.common.service.integrate.shiny.UserServiceClient;
+import com.grabber.common.service.integrate.tiktok.TikTokApiClient;
+import com.shiny.common.service.facade.request.UserQueryRequest;
+import com.shiny.common.service.facade.result.UserQueryResult;
 import com.web.wallet.common.model.CommonResult;
 import com.web.wallet.common.template.WalletBizProcessor;
 import com.web.wallet.marketing.request.TikTokVideoDetailRequest;
 import com.web.wallet.marketing.response.VideoDetailVO;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -24,12 +29,15 @@ import javax.servlet.http.HttpServletRequest;
 @Service
 public class QueryVideoDetailProcessor extends BaseProcessor implements WalletBizProcessor<TikTokVideoDetailRequest, CommonResult<VideoDetailVO>> {
 
+    private final static Logger LOGGER = LoggerFactory.getLogger(QueryVideoDetailProcessor.class);
+
     @Resource
     private TikTokApiClient tikTokApiClient;
 
     @Override
     public void process(TikTokVideoDetailRequest request, CommonResult<VideoDetailVO> result, HttpServletRequest httpServletRequest, Object... inputParams) {
         String response = tikTokApiClient.queryVideoDetail(request.getVideoId());
+
         // 解析JSON字符串，将结果转换成VideoDetailResponse对象
         ObjectMapper objectMapper = new ObjectMapper();
         JsonNode rootNode = null;

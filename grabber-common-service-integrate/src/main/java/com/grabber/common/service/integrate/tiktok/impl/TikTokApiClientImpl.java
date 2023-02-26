@@ -2,9 +2,9 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2023 All Rights Reserved.
  */
-package com.grabber.common.service.integrate.impl;
+package com.grabber.common.service.integrate.tiktok.impl;
 
-import com.grabber.common.service.integrate.TikTokApiClient;
+import com.grabber.common.service.integrate.tiktok.TikTokApiClient;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
