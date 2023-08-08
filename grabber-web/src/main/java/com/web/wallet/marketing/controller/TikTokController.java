@@ -5,6 +5,7 @@
 package com.web.wallet.marketing.controller;
 
 
+import com.grabber.common.service.integrate.aspect.RdsCaptcha;
 import com.web.wallet.common.enums.BizTypeEnum;
 import com.web.wallet.common.model.CommonResult;
 import com.web.wallet.marketing.request.TikTokVideoDetailRequest;
@@ -28,6 +29,7 @@ import javax.servlet.http.HttpServletRequest;
 @RequestMapping(value = "api/v1/marking/tiktok")
 public class TikTokController extends RestBaseController {
 
+    @RdsCaptcha
     @GetMapping(value = "videList")
     public CommonPageResult<TikTokVideoListVO> getVideoList(HttpServletRequest request, TikTokVideoListRequest tikTokVideoListRequest) {
 
